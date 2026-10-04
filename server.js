@@ -8,7 +8,7 @@ const path = require('path');
 const fs = require('fs');
 const crypto = require('crypto');
 const cookie = require('cookie');
-const { DatabaseSync } = require('node:sqlite');
+const { Pool } = require('pg');
 
 // ================= db.js =================
 // PostgreSQL storage via the `pg` Pool (Render free tier provides DATABASE_URL).
